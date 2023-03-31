@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-container{
+    border: 2px solid white;
+    padding: 15px;
+    background-color: rgb(234, 222, 222);
+    border-radius: 7px;
+}
+.change-cursor{
+    cursor: pointer;
+}
