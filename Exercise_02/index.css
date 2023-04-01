@@ -1,14 +1,18 @@
-h1 {
-  color: red;
-  margin-left: 9px;
-}
-body{
+body {
   display: flex;
   justify-content: center;
 }
-#counter{
-  padding: 10vh;
+#container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
 }
-div{
-  margin-top: 10px;
+#counter{
+  text-align: center;
+  font-size: larger;
+  padding-bottom: 25px;
+}
+h1{
+  margin-left: 25px;
 }
