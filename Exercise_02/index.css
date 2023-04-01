@@ -1,9 +1,14 @@
 h1 {
   color: red;
+  margin-left: 9px;
 }
-.container {
-  width: fit-content;
+body{
   display: flex;
   justify-content: center;
-  flex-direction: column;
+}
+#counter{
+  padding: 10vh;
+}
+div{
+  margin-top: 10px;
 }
