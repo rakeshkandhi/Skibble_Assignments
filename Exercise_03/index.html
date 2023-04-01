@@ -10,18 +10,18 @@
 </head>
 
 <body>
+    <form name="frmadd" class="container">
+        Num1 <input type="text" name="txt1"/><br>
+        Num2 <input type="text" name="txt2" /><br>
+        Result <input type="text" placeholder="Result" name="txt3" id="result" /><br>
+        <div>
+            <input type="button" id="btn" value="-" onclick="add()">
+            <input type="button" id="btn" value="+" onclick="sub()">
+            <input type="button" id="btn" value="/" onclick="division()">
+            <input type="button" id="btn" value="*" onclick="multiply()">
+        </div>
+    </form>
     <script src="./main.js"></script>
-    <div class="container">
-        <form name="frmadd">
-            Num1 <input type="text" placeholder="Enter the number" name="txt1" /><br>
-            Num2 <input type="text" placeholder="Enter the number" name="txt2" /><br>
-            Result <input type="text" name="txt2" disabled /><br>
-            <input type="button" value="decrease">
-            <input type="button" value="increase">
-            <input type="button" value="reset">
-
-        </form>
-    </div>
 </body>
 
 </html>
