@@ -9,12 +9,14 @@ div {
   margin-top: 80px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 a {
   color: black;
   text-decoration: none;
 }
 a:hover {
+  color: lightslategray;
   text-decoration: underline;
 }
 h1 {
