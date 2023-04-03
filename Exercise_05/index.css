@@ -1,3 +1,8 @@
-body{
-    background-color: lightblue;
+div {
+  background-color: lightblue;
+  width: fit-content;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 34px;
 }
